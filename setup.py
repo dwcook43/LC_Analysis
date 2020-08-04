@@ -7,7 +7,7 @@ setuptools.setup(
     author='Daniel W. Cook & Ryan Nelson',
     author_email='dwcookphd@gmail.com',
     # Needed to actually package something
-    packages=['LC_Analysis'],
+    packages=['LC_Report']
     # Needed for dependencies
     install_requires = [
         'numpy>=1.17',
