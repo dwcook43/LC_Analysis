@@ -142,7 +142,7 @@ class LcCsv(object):
          
         if labelRT:
             intData = self.select(specs, data_type = 'integration', wl = wl)
-            if not intData:
+            if not intData():
                 print('Integration data does not exist')
                 
                 texts = []
